@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+    em HTML é "id" = em CSS é #
+    em HTML é class = em CSS é .
+*/
+
+body {
+    background-color: rgb(158, 214, 161);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(20, 146, 31);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(20, 146, 31);
+    color: white;
+}
+/* É regra não colocar dois ID no CSS pelo W3C.
+    A "class" é essencial para marcar mais de um.
+*/
+
+h2 {
+    color: rgb(24, 83, 29);
+}
+
+.basico {
+ color: rgb(153, 228, 14);
+}
+
+.intermediario {
+ color: aquamarine;
+}
+
+.avancado {
+ color: rgb(206, 66, 66);
+}
+
+.destaque {
+    background-color: rgba(241, 218, 7, 0.651);
+}

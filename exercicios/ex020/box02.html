@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font: normal 12px arial;
+            text-align: justify;
+            background-color: gray;
+        }
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+            color: black;
+            padding: 1px;
+            margin: 0px 0px 7px 0px;
+        }
+        nav {
+            background-color: rgb(68, 63, 63);
+            box-shadow: 0px 4px 2px 0px black;
+            padding: 4px;
+            margin-top: -6px;
+        }
+        nav > a {
+            text-decoration: none;
+            font-size: 12px;
+            color: rgb(250, 250, 250);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover {
+            color: blue;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+        main > section {
+            margin: 1px;
+        }
+        article {
+            background-color: rgb(224, 223, 223);
+        }
+        article > aside {
+            background-color: gray;
+        }
+        footer {
+            color: white;
+            text-align: center;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">HOME</a>
+            <a href="">ASSUNTOS</a>
+            <a href="">FESTIVAIS</a>
+            <a href="">CARDAPIO</a>
+            <a href="">INFORMAÇÕES</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Esportes Politica Tecnologia </p>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h1>Noticias do Brasil</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores repellendus voluptatum omnis nostrum vero porro perspiciatis beatae, illum fugiat corrupti rem voluptates dicta eos mollitia similique dolorum dolor libero dolorem.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo cursoEmVideo</p>
+    </footer> 
+</body>
+</html>

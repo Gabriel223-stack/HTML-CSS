@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSERINDO VIDEOS</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+    <video src="midia/meu_video.webm" width="500" controls></video>
+    <!--COLOQUE EM TODOS OS FORMATOS-->
+    <h1> Colocando em vários formatos</h1>
+    <video width="500" poster="imagem/limoes.jpg" controls>
+        <source src="midia/meu_video.mkv" type="video/mkv">
+        <source src="midia/meu_video.webm" type="video/webm">
+        <source src="midia/meuvideo.mp4" type="video/mp4">
+        <p> Seu navegador não tem compatilidade com formato de videos </p>
+    </video>
+    
+</body>
+</html>
