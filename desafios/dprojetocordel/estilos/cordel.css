@@ -70,12 +70,26 @@ section.normal {
     color: black;
 }
 
-section.container1 > p /*neste caso a "class e id" só foram criadas para definir o padrao do fundo e o outro o paragrafo */{ 
+section.imagem /*neste caso a "class e id" só foram criadas para configurar com a class a imagem e o id para selecionar e inserir a imagem e alinhar com right center */{ 
     background-color: rgba(0, 0, 0, 0.103);
-
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section#img1 {
     background-image: url(imagem/background001.jpg);
     background-position: right center;
+}
+
+section#img2 {
+    background-image: url(imagem/background002.jpg);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
