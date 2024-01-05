@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-:root {
+:root { /*variaveis */
     --fonte1: verdana, Geneva, tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
@@ -30,9 +30,9 @@ header {
 
 header > h1 {
     padding-top: 50px;
-    font-variant: small-caps;
+    font-variant: small-caps; /*a palavra tem letras maiusculas, porém as duas primeiras letras de cada palavra tem letras maiores */ 
     font-family: var(--fonte2);
-    font-size: 10vw;
+    font-size: 10vw; /*10% da tela */
 }
 
 header > p {
@@ -55,9 +55,9 @@ header a:hover, footer a:hover {
 section {
     font-family: var(--fonte3);
     padding-top: 10vh; /* "VH" define a altura */
-    padding-left: 30px;
+    padding-left: 30px; /* espaçamento para não ficar muito próximo nas laterais */
     padding-bottom: 10vh; /* Espaçamento entre as sections */
-    line-height: 2em;
+    line-height: 2em; /*espaçamento entre linhas */
     font-size: 3.5vw; /* "VW" define a largura */
 }
 
@@ -73,14 +73,21 @@ section.normal {
 section.imagem /*neste caso a "class e id" só foram criadas para configurar com a class a imagem e o id para selecionar e inserir a imagem e alinhar com right center */{ 
     background-color: rgba(0, 0, 0, 0.103);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473); /* "inset" sombra pra dentro */
     background-size: cover;
     background-attachment: fixed;
 }
 
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 5px;
+    display: inline-block; /*o display inline-block serve também para se ajustar ao tamanho da caixa para se adaptar no condéudo */
+    text-shadow: 1px 1px 0px black;
+}
+
 section#img1 {
     background-image: url(imagem/background001.jpg);
-    background-position: right center;
+    background-position: right center; /*alinhando a posição da imagem */
 }
 
 section#img2 {
