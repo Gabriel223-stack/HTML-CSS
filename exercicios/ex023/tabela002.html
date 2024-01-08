@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative; /*Util para inserir titulo rolável */
         }
 
         td, th {
@@ -29,6 +30,20 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky; /*Util para inserir titulo rolável */
+            top: 0; /*Util para inserir titulo rolável */
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd) /*"impar" ou 2n-1 */ {
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(2n) /* "2n" significa que colocará de duas em duas as partes cinzas do fundo "even" par*/ {
+            background-color: lightgray;
         }
 
         td.num {
@@ -50,7 +65,7 @@
                 TR, TD, TH
     -->
     <table>
-        <caption>População das unidaades federativas</caption>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
                 <th scope="col">Estado</th><!--é necessário colocar para que o google dê mais credibilidade-->
@@ -78,5 +93,10 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, ipsam, aliquam nemo aspernatur quod repudiandae minus tenetur dignissimos architecto deleniti id incidunt nobis. Facere illum magni modi ut enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt beatae rem fugiat odio deserunt odit veniam! Repudiandae id quos perferendis tenetur, dignissimos, voluptates culpa vel optio ducimus harum, ea esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur, corrupti quidem odit sit molestiae nam voluptates officiis tempora! Ipsum facere libero dicta praesentium assumenda sint natus eius magni quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, iusto. Fugiat quod nostrum ipsam voluptatibus laudantium corporis voluptatum, facilis minus voluptatem ducimus consequuntur sapiente iusto harum a vero dicta officiis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, ipsam, aliquam nemo aspernatur quod repudiandae minus tenetur dignissimos architecto deleniti id incidunt nobis. Facere illum magni modi ut enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt beatae rem fugiat odio deserunt odit veniam! Repudiandae id quos perferendis tenetur, dignissimos, voluptates culpa vel optio ducimus harum, ea esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur, corrupti quidem odit sit molestiae nam voluptates officiis tempora! Ipsum facere libero dicta praesentium assumenda sint natus eius magni quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, iusto. Fugiat quod nostrum ipsam voluptatibus laudantium corporis voluptatum, facilis minus voluptatem ducimus consequuntur sapiente iusto harum a vero dicta officiis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, ipsam, aliquam nemo aspernatur quod repudiandae minus tenetur dignissimos architecto deleniti id incidunt nobis. Facere illum magni modi ut enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt beatae rem fugiat odio deserunt odit veniam! Repudiandae id quos perferendis tenetur, dignissimos, voluptates culpa vel optio ducimus harum, ea esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur, corrupti quidem odit sit molestiae nam voluptates officiis tempora! Ipsum facere libero dicta praesentium assumenda sint natus eius magni quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, iusto. Fugiat quod nostrum ipsam voluptatibus laudantium corporis voluptatum, facilis minus voluptatem ducimus consequuntur sapiente iusto harum a vero dicta officiis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, ipsam, aliquam nemo aspernatur quod repudiandae minus tenetur dignissimos architecto deleniti id incidunt nobis. Facere illum magni modi ut enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt beatae rem fugiat odio deserunt odit veniam! Repudiandae id quos perferendis tenetur, dignissimos, voluptates culpa vel optio ducimus harum, ea esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur, corrupti quidem odit sit molestiae nam voluptates officiis tempora! Ipsum facere libero dicta praesentium assumenda sint natus eius magni quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, iusto. Fugiat quod nostrum ipsam voluptatibus laudantium corporis voluptatum, facilis minus voluptatem ducimus consequuntur sapiente iusto harum a vero dicta officiis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, ipsam, aliquam nemo aspernatur quod repudiandae minus tenetur dignissimos architecto deleniti id incidunt nobis. Facere illum magni modi ut enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt beatae rem fugiat odio deserunt odit veniam! Repudiandae id quos perferendis tenetur, dignissimos, voluptates culpa vel optio ducimus harum, ea esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur, corrupti quidem odit sit molestiae nam voluptates officiis tempora! Ipsum facere libero dicta praesentium assumenda sint natus eius magni quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, iusto. Fugiat quod nostrum ipsam voluptatibus laudantium corporis voluptatum, facilis minus voluptatem ducimus consequuntur sapiente iusto harum a vero dicta officiis?</p>
 </body>
 </html>
