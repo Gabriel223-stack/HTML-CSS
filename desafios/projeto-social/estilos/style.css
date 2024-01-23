@@ -40,7 +40,7 @@ iframe#tela {
     position: relative;
 
     top: 80px;
-    left: 22px;
+    left: 22px; /*Centralizando a imagem */
 }
 
 section#redes-sociais {
@@ -52,12 +52,12 @@ section#redes-sociais img {
     border-radius: 50%;
     margin: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-    box-sizing: border-box;
+    box-sizing: border-box; /* isso é para bordar fazer parte da caixa */
 }
 
 section#redes-sociais img:hover {
     border: 2px solid white;
-    transition: 3s, border 1s;
-    transform: translate(-3px, -3px);
+    transition: 3s, border 1s; /* definindo o tempo da bordar */
+    transform: translate(-3px, -3px); /* para cima e para baixo */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
 }
