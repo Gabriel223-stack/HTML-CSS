@@ -23,7 +23,7 @@ main {
 }
 
 section#telefone {
-    background: url(./imagens/frame-iphone.png) no-repeat;
+    background: url(imagens/frame-iphone.png) no-repeat;
 
     width: 311px;
     height: 627px;
