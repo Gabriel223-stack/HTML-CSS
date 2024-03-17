@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root {
+    --cor0: #fff;
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
